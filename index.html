@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Excel File</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="image-container">
+        <img src="C:\Users\dhanu\OneDrive\Documents\ipamslogo1.jpg" alt="Image" class="round1">
+        <img src="C:\Users\dhanu\Desktop\VIT.webp" alt="Image" class="round">
+    </div>
+    <h1 class="head">IPAMS</h1>
+</div>
+<hr>
+<div id="navigation">
+    <a href="#home" onclick="scrollToSection('#home')">Home</a>
+    <a href="#purpose" onclick="scrollToSection('#purpose')">Purpose</a>
+    <a href="#project" onclick="scrollToSection('#project')">Project</a>
+    <a href="#team" onclick="scrollToSection('#team')">Team</a>
+</div>
+<section id="home">
+    <h2>About the Project:</h2>
+    <p>The interview testing system aims to combine Arduino, sensors, wireless data transmission, machine learning techniques, and Flask to create a comprehensive evaluation platform for candidates. Utilizing Arduino, the system will capture physiological data from candidates during interviews, such as heart rate, skin conductance, and facial expressions. The collected data will be wirelessly transmitted to a central processing unit for analysis using machine learning algorithms. Through the integration of Flask, a web framework, the system will present real-time feedback on candidates' performance during interviews. The machine learning algorithms will assess and evaluate candidates' responses based on the captured physiological data, providing objective insights into their performance. The system will enable interviewers to access the results and analysis through a dedicated website created with Flask. By leveraging machine learning, the system can identify patterns and correlations in physiological data, enhancing the assessment and evaluation process. The real-time feedback provided by the system will enable candidates to make immediate adjustments and improvements to their performance during the interview. The combination of Arduino, sensors, wireless data transmission, machine learning, and Flask creates a powerful and innovative approach to modernizing the interview process. This comprehensive system aims to improve objectivity, accuracy, and efficiency in assessing candidates, ultimately facilitating better hiring decisions.</p>
+</section>
+<div class="line-container">
+ 
+  
+  
+  
+  
+</div>
+
+<section id="purpose">
+    <h2>Purpose of the Project:</h2>
+    <p>The IPAMS project aims to create an interview testing system using Arduino, sensors, wireless data transmission, machine learning, and Flask web development. The system captures physiological data from candidates during interviews and provides real-time feedback based on the analysis of that data. Key milestones include sensor data acquisition and processing, machine learning model training and real-time analysis, web application development and visualization, and deployment with security measures. Proposed features include real-time data capture, machine learning-based analysis, immediate feedback, and a web-based interface. Successful completion of the project can lead to an objective and efficient interview assessment system, improving hiring decisions and the overall interview process. Specific implementation, deliverables, and scope may vary based on project requirements and constraints.</p>
+</section>
+<div class="line-container">
+
+
+  
+
+</div>
+
+<section id="project">
+    <h2>Upload Excel File</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".xlsx, .xls">
+        <input type="submit" value="Upload">
+    </form>
+</section>
+<div class="line-container">
+
+ 
+  
+  
+</div>
+
+<section id="team">
+    <h2>Team Members</h2>
+    <h2>Manasa Viriyala - 21BCE7449</h2>
+    <h2>Sathvik Vadarevu - 21BCE9413</h2>
+    <h2>Tribuvana Karthikeya Gundu - 21BCE9810</h2>
+    <h2>Komal Garlapati - 21BCE9758</h2>
+    <h2>Kotha Dinesh Sai - 21BCE9412</h2>
+    <h2>Vinukonda Venkat - 21BCE9136</h2>
+</section>
+<div class="line-container">
+
+ 
+
+  
+
+</div>
+<script>
+    function scrollToSection(sectionId) {
+        const section = document.querySelector(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+</body>
+</html>
