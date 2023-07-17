@@ -1,0 +1,79 @@
+hr {
+  height: 4px;
+  background-color: #000;
+  border: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  gap: 1300px; /* Adjust the gap between the images */
+  width: 100px;
+  height: 100px;
+}
+
+.head {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #8B4513;
+}
+
+body {
+  height: 1500px; /* Adjust this value to match the height of your webpage content */
+}
+
+#navigation {
+  display: flex;
+  justify-content: center;
+}
+
+#navigation a {
+  margin: 0 10px; /* Adjust this value to add spacing between navigation elements */
+  text-decoration: none;
+  color: #000;
+  font-size: 20px; /* Adjust the value to increase the font size */
+}
+
+section {
+  height: 500px; /* Adjust this value to match the height of your sections */
+  margin-top: 50px; /* Adjust this value to provide space between sections */
+  background-color: white;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.line-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.star {
+  font-size: 40px;
+  margin: 0 10px;
+}
